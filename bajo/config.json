@@ -1,0 +1,5 @@
+{
+  "alias": "static",
+  "prefix": "assets",
+  "dependencies": ["bajo-web"]
+}
