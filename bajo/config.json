@@ -1,5 +1,7 @@
 {
   "alias": "static",
   "prefix": "assets",
+  "virtualsPrefix": "-",
+  "appAsRoot": true,
   "dependencies": ["bajo-web"]
 }
