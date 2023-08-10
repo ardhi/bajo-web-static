@@ -2,6 +2,6 @@
   "alias": "static",
   "prefix": "assets",
   "virtualsPrefix": "-",
-  "appAsRoot": true,
+  "mountAppAsRoot": true,
   "dependencies": ["bajo-web"]
 }
