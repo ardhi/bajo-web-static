@@ -1,7 +1,4 @@
 [{
-  "root": "bajo",
-  "prefix": "wakaka"
-}, {
-  "root": "bajoWeb",
-  "prefix": "hmm"
+  "root": "node_modules/prismjs",
+  "prefix": "prismjs"
 }]

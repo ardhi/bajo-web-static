@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/ardhi/bajo-web-static#readme",
   "dependencies": {
-    "@fastify/static": "^6.10.2"
+    "@fastify/static": "^6.10.2",
+    "prismjs": "^1.29.0"
   }
 }
