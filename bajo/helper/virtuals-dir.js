@@ -1,9 +1,10 @@
 function virtualsDir (plugin) {
   const { getConfig } = this.bajo.helper
   const cfg = getConfig('bajoWebStatic')
-  const dir = cfg.prefix === '' ? `/${cfg.virtualsPrefix}` : `/${cfg.prefix}/${cfg.virtualsPrefix}`
+  let dir = cfg.prefix === '' ? `/${cfg.virtualsPrefix}` : `/${cfg.prefix}/${cfg.virtualsPrefix}`
   const cfgP = getConfig(plugin, { full: true })
-  return dir + '/' + cfgP.alias
+  dir += '/' + cfgP.alias
+  return dir
 }
 
 export default virtualsDir
