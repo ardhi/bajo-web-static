@@ -1,4 +1,4 @@
-function assetsDir (plugin) {
+function assetDir (plugin) {
   const { getConfig } = this.bajo.helper
   const cfg = getConfig('bajoWebStatic')
   const dir = cfg.prefix === '' ? '' : `/${cfg.prefix}`
@@ -8,4 +8,4 @@ function assetsDir (plugin) {
   return dir + '/' + cfgP.alias
 }
 
-export default assetsDir
+export default assetDir

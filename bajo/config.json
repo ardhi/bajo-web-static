@@ -1,7 +1,8 @@
 {
   "alias": "static",
-  "prefix": "assets",
-  "virtualsPrefix": "-",
+  "prefix": "asset",
+  "virtualPrefix": "-",
   "mountAppAsRoot": true,
+  "auth": ["basic", "apiKey", "jwt", "session"],
   "dependencies": ["bajo-web"]
 }
