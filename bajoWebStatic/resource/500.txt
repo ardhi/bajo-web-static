@@ -1,1 +1,1 @@
-500 internal server error
+internal server error
