@@ -10,7 +10,7 @@ const boot = {
     const cfg = getConfig('bajoWebStatic')
     const prefix = cfg.prefix
     const cfgWeb = getConfig('bajoWeb', { full: true })
-    const routeHook = await importModule(`${cfgWeb.dir}/lib/route-hook.js`)
+    const routeHook = await importModule(`${cfgWeb.dir.pkg}/lib/route-hook.js`)
     await this.bajoWeb.instance.register(async (ctx) => {
       this.bajoWebStatic.instance = ctx
       await runHook('bajoWebStatic:afterCreateContext', ctx)
