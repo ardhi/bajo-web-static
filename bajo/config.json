@@ -4,5 +4,9 @@
   "virtualPrefix": "-",
   "mountAppAsRoot": true,
   "auth": ["basic", "apiKey", "jwt", "session"],
+  "cors": {},
+  "helmet": {},
+  "compress": false,
+  "rateLimit": false,
   "dependencies": ["bajo-web"]
 }
