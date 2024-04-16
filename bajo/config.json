@@ -8,5 +8,6 @@
   "helmet": {},
   "compress": false,
   "rateLimit": false,
+  "disabled": [],
   "dependencies": ["bajo-web"]
 }
