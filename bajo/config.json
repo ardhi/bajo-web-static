@@ -1,7 +1,7 @@
 {
   "alias": "static",
   "prefix": "asset",
-  "virtualPrefix": "-",
+  "virtualPrefix": "~",
   "mountAppAsRoot": true,
   "auth": ["basic", "apiKey", "jwt", "session"],
   "cors": {},

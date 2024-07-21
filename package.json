@@ -1,6 +1,6 @@
 {
   "name": "bajo-web-static",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "Static Assets Web Server Plugin for Bajo Framework",
   "main": "index.js",
   "scripts": {
